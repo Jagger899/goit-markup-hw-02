@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h3 {
+    color: #212121;
+}
+ p {
+    color: #757575;
+}
+span {
+    color: #215CF3;
+}
+.main-nav a:hover {
+    color:#2196F3;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+.hero .hero-discription h1 {
+    color: #fff;
+
+}
+.hero-order {
+    border: 1px solid #2196F3;
+    border-radius: 10px;
+    color: #fff;
+    padding: 3px;
+    background-color:#2196f3 ;
+}
+.adress {
+    background-color: #2F303A ;
+}
+.adress p {
+    color: #fff;
+}
+
+
