@@ -10,36 +10,167 @@ a {
 }
 h3 {
     color: #212121;
+    
+    
+    font-family:  'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 36px;
+
+}
+h2 {
+    text-align: center;
+    
+    font-family:  'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
 }
  p {
     color: #757575;
+    font-style: normal;
+    font-family: Roboto;
+    
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
 }
 span {
     color: #215CF3;
 }
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 32px;
+    font-style: normal;  
+}
+
+.main-nav > .logo{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 32px;
+    
+}
+.main-nav a {
+    color:#212121 ;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    
+}
+
 .main-nav a:hover {
     color:#2196F3;
 }
 
 .hero {
     background-color: #2F303A;
+    padding: 20px;
+    
 }
 .hero .hero-discription h1 {
     color: #fff;
+    text-align: center;
+    font-family:  'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 20px;
 
 }
-.hero-order {
+.hero-order   {
     border: 1px solid #2196F3;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #fff;
     padding: 3px;
-    background-color:#2196f3 ;
+    background-color:#2196f3    
+}
+.hero-discription .hero-order  {
+    text-align: center;
+    
+    font-family:  'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    width: 136px;
+    height: 30px;
+    margin-left: 50%;
+}
+.our-advantages-discription {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.our-advantages-discription p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+.our-team-photo{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
 }
 .adress {
     background-color: #2F303A ;
 }
 .adress p {
     color: #fff;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+}
+.adress   a{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+ .adress .logofoot{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 32px;
+    font-style: normal;  
+    color: #fff;
+}
+.nav-list {
+    display: flex;
+}
+.nav-list a {
+    border: 1px solid #F5F4FA;
+    border-radius: 5px;
+    color: #212121;
+    background-color:#F5F4FA; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; 
+    display: inline-block;
+    align-items:center;
+    padding-top: 10px;    
+}
+.nav-list a:hover {
+    border: 1px solid #2196F3;
+    background-color:#2196f3;
+    color: #fff;
+
 }
 
 
